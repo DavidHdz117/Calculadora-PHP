@@ -9,7 +9,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $op = (!empty($op)) ? $op :0;
 
     if($num1 == 0|| $num2 == 0 || $op==0){
-        echo "La operación no se realizo debido a que algunos numeros valores no son validos, verfique nuevamente";
+        echo "La operación no se realizo debido a que algunos valores no son validos, verifique nuevamente";
     }
     else{
         if ($op==1){
